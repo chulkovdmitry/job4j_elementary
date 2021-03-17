@@ -2,13 +2,13 @@ package ru.job4j.converter;
 
 public class Converter {
     public static int rubleToEuro(int value) {
-        int rsl = value / 70;
-        return rsl;
+        // int rsl = value / 70;
+        return value / 70;
     }
 
     public static int rubleToDollar(int value) {
-        int rsl = value / 60; /* формула перевода рублей в доллары. */
-        return rsl;
+        // int rsl = value / 60; /* формула перевода рублей в доллары. */
+        return value / 60;
     }
 
     public static void main(String[] args) {
