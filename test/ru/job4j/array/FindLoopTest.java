@@ -33,7 +33,7 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHasLength5Then0() {
-        int[] data = new int[] {5, 10, 3};
+        int[] data = new int[]{5, 10, 3};
         int el = 5;
         int result = FindLoop.indexOf(data, el);
         int expected = 0;
@@ -42,7 +42,7 @@ public class FindLoopTest {
 
     @Test
     public void whenFind3() {
-        int[] data = new int[] {5, 2, 10, 2, 4};
+        int[] data = new int[]{5, 2, 10, 2, 4};
         int el = 2;
         int start = 2;
         int finish = 4;

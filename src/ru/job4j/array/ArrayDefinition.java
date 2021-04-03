@@ -13,8 +13,5 @@ public class ArrayDefinition {
         for (int i = 0; i < 4; i++) {
             System.out.println("Участник группы № " + (i + 1) + " : " + names[i]);
         }
-        // System.out.println("Размер массива ages равен : " + ages.length);
-        // System.out.println("Размер массива surnames равен : " + surnames.length);
-        // System.out.println("Размер массива prices равен : " + prices.length);
     }
 }

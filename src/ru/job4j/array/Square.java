@@ -4,7 +4,7 @@ public class Square {
     public static int[] calculate(int bound) {
         int[] rst = new int[bound];
         for (int index = 0; index < rst.length; index++) {
-           rst[index] = index * index;
+            rst[index] = index * index;
         }
         return rst;
     }
@@ -14,8 +14,5 @@ public class Square {
         for (int number : array) {
             System.out.println(number);
         }
-//        for (int index = 0; index < array.length; index++) {
-//            System.out.println(array[index]);
-//        }
     }
 }
